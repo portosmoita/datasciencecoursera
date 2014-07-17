@@ -2,6 +2,7 @@ datasciencecoursera
 ===================
 
 Work for Data science specialization (Johns Hopkins University)
+
 Programming Assignment 1: Air Pollution: Instructions
 
 Introduction
@@ -29,7 +30,8 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
         ## to be used
 
         ## Return the mean of the pollutant across all monitors list
-        ## in the 'id' vector (ignoring NA values)}
+        ## in the 'id' vector (ignoring NA values)
+        }
 
 You can see some example output from this function. The function that you write should be able to match this output. Please save your code to a file named pollutantmean.R.
 
@@ -48,7 +50,8 @@ complete <- function(directory, id = 1:332) {
         ## 2  1041
         ## ...
         ## where 'id' is the monitor ID number and 'nobs' is the
-        ## number of complete cases}
+        ## number of complete cases
+        }
 
 You can see some example output from this function. The function that you write should be able to match this output. Please save your code to a file named complete.R. To run the submit script for this part, make sure your working directory has the file complete.R in it.
 
@@ -63,7 +66,8 @@ corr <- function(directory, threshold = 0) {
         ## variables) required to compute the correlation between
         ## nitrate and sulfate; the default is 0
 
-        ## Return a numeric vector of correlations}
+        ## Return a numeric vector of correlations
+        }
 
 For this function you will need to use the 'cor' function in R which calculates the correlation between two vectors. Please read the help page for this function via '?cor' and make sure that you know how to use it.
 You can see some example output from this function. The function that you write should be able to match this output. Please save your code to a file named corr.R. To run the submit script for this part, make sure your working directory has the file corr.R in it.
